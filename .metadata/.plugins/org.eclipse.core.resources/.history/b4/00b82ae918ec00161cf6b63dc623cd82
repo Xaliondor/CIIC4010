@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class StudentNameID {
+	public static void main(String args[]){
+		Scanner keyboard = new Scanner(System.in);
+				
+			double id;
+			
+			String Name;
+				
+			System.out.print("Enter your name : ");				
+			Name = keyboard.nextLine();
+			Syestem.out.print("Enter your ID: ");
+			id = keyboard.nextDouble();
+				
+			System.out.println("********************");	
+			System.out.println("*                  *");
+			System.out.println("*" + Name + "*");
+			System.out.println("*                  *");
+			System.out.println("*" + id + "*");
+			System.out.println("*                  *");
+			System.out.println("********************");
+	}
+}
